@@ -39,6 +39,7 @@ def DoG_filter(im_data: "napari.types.ImageData", sigma: float = 2) -> "napari.t
     img2=gaussian(im_data,sig2)
 
     DoG = img2-img1
+    # stupid change
 
     return DoG
 
